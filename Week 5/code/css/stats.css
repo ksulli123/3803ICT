@@ -1,0 +1,240 @@
+html body{
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Mukta Vaani';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Vaani Regular'), local('MuktaVaani-Regular'), url(https://fonts.gstatic.com/s/muktavaani/v4/nBCV_CfolotRfZcyb1WMZ8tJnhbQWEDOXyTLVwzmlLw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0A80-0AFF, U+200B-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Vaani';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Vaani Regular'), local('MuktaVaani-Regular'), url(https://fonts.gstatic.com/s/muktavaani/v4/nBCV_CfolotRfZcyb1WMZ6E8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Vaani';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Vaani Regular'), local('MuktaVaani-Regular'), url(https://fonts.gstatic.com/s/muktavaani/v4/nBCV_CfolotRfZcyb1WMZ4gp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+.text{
+  font-family: 'Mukta Vaani', sans-serif;
+}
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+.feature {
+	position: relative;
+}
+
+.node {
+	position: absolute;
+	border: 1px white solid;
+	overflow: hidden;
+
+  &.level-1 {
+  z-index: 5;
+  font-size: 10vmin;
+}
+}
+.l-wrap {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.grid-item {
+  padding-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.l-country {
+  width: 20%;
+}
+
+.l-chart {
+  width: 75%;
+}
+
+.l-result {
+  width: 100%
+}
+
+.l-striker {
+  width: 100%
+}
+
+.l-treemap {
+  position: relative;
+  width: 100%
+}
+
+.l-squad {
+  width: 100%
+}
+.l-stats {
+  width: 100%
+}
+
+:root{
+    --COLOR-HOVER: rgb(35, 139, 69);
+    --COLOR-RECT : rgb(86, 166, 115);
+}
+
+.inner {
+  display: inline-block;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+table#svg_result tr:nth-child(even) {
+    background-color: #eee;
+}
+table#svg_result tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#svg_result th {
+    background-color: black;
+    color: white;
+}
+
+table#svg_result tr:hover {
+	background-color: var(--COLOR-RECT);
+}
+/*
+table#svg_squad tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table#svg_squad tr:nth-child(even) {
+    background-color: #eee;
+}
+
+
+table#svg_squad th {
+    background-color: black;
+    color: white;
+}
+
+table#svg_squad tr:hover {
+	background-color: var(--COLOR-HOVER);
+}
+*/
+.ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 0px;
+  fill : red;
+}
+
+.show_a_part {
+    max-height:660px;
+    overflow-y:auto;
+}
+.chart text {
+  fill: white;
+  font: 20px sans-serif;
+  text-anchor: end;
+}
+.intro_text {
+
+}
+
+.Champion {
+	fill: #006d2c;
+}
+
+.Runner-up {
+	fill:  #31a354;
+}
+
+.Third-place {
+	fill: #74c476;
+}
+
+.Group-stage {
+	fill: #bae4b3;
+}
+/*
+.rect_stats {
+	fill: var(--COLOR-RECT);
+}
+.rect_stats:hover {
+	fill: var(--COLOR-HOVER);
+}
+.Champion:hover {
+	fill: var(--COLOR-HOVER);
+}
+.Runner-up:hover {
+	fill: var(--COLOR-HOVER);
+}
+.Third-place:hover {
+	fill: var(--COLOR-HOVER);
+}
+.Group-stage:hover {
+	fill: var(--COLOR-HOVER);
+}
+*/
+
+.axis {
+  font: 10px sans-serif;
+}
+.rect_strikers {
+	fill: var(--COLOR-RECT);
+}
+.rect_strikers:hover {
+	fill: var(--COLOR-HOVER);
+}
+
+.Player {
+  fill: var(--COLOR-RECT)
+}
+.Coach {
+  fill: var(--COLOR-HOVER);
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+input#countryInput {
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%;
+    font-size: 10px; /* Increase font-size */
+    padding: 12px 10px 12px 10px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 0px; /* Add some space below the input */
+}

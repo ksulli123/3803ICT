@@ -1,0 +1,135 @@
+ <!DOCTYPE HTML>
+<html>
+	<head>
+		<title>WorldCupViz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="./d3/d3.js"></script>
+		<script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+		 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   			integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   			crossorigin=""/>
+   			
+   		 <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   			integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   			crossorigin=""></script>
+		
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><strong><a href="index.html">DataViz</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>WorldCupViz</h2>
+				<p>Football is the most watched sports event in the world<br />
+					Welcome to the world of football statistics
+				</p>
+				<ul class="actions">
+					<li><a class="button special big icon fa-arrow-down"
+					onclick="$('html, body').animate({scrollTop: $('#three').offset().top + 55}, 1000);">Get Started</a></li>
+				</ul>
+			</section>
+
+			<!-- One 
+				<section id="one" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row">
+								<div class="container">
+									<iframe id="map" src="map.html" style="width:100%; height: 600px;"></iframe>			
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				-->
+				
+<!-- Stats -->
+
+			<!-- Stats -->
+				<section id="three" class="wrapper style1">
+					<div class="row 100%">
+						<div class="-1u 10u 12u$(medium)">
+							<div class="taps">
+								<!-- <li class='back' onclick=onClick(event)>Hosts</li> -->
+								<li class="selected" onclick=onClick(event)>Attendance</li>
+								<li class= 'back' onclick=onClick(event)>Bubble</li>
+							</div>
+
+							<div id="countryMap" style="width: 1100; text-align: center; margin: 0 auto;"></div>
+							
+								<div style="position:absolute; right: 150px;"> 
+									<div id ='infoTest'><h4>Country</h4> <b></b> </div>
+								</div>
+							
+								<div id="countryScale" style="margin: 0 auto;">
+									
+									<div id="selector">
+											<select id="x-selector" onchange="onChangeX()">
+												<option value="Points">Points</option>
+												<option value="Goals">Goals</option>
+												<option value="Goals Against">Goals Against</option>
+												<option value="Yellow Cards">Yellow Cards</option>
+												<option value="Victories">Victories</option>
+												<option value="Played Matches">Played Matches</option>
+											</select>
+										<select id="y-selector" onchange="onChangeY()">
+											<option value="Goals">Goals</option>
+											<option value="Points">Points</option>
+											<option value="Goals Against">Goals Against</option>
+											<option value="Yellow Cards">Yellow Cards</option>
+											<option value="Victories">Victories</option>
+											<option value="Played Matches">Played Matches</option>
+										</select>
+									</div>
+							</div>
+							<div id="slidecontainer">
+								<h2>Year <span id="demo"></span></h2>
+								<input type="range" min="1930" max="2014" value="2014" step ="4" class="slider" id="myRange">
+							</div>
+						</div>
+					</div>
+				</section>
+
+		<!-- Footer 
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-github"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; WorldCupViz</li>
+					</ul>
+				</div>
+			</footer>
+			
+			-->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="homePage.js"></script>
+
+	</body>
+</html>

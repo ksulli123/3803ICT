@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="900"
+   height="600"
+   sodipodi:docname="Flag of the Dutch West India Company.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="725"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.41416667"
+     inkscape:cx="450"
+     inkscape:cy="300.60362"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="rect2818"
+     width="900"
+     height="600"
+     x="0"
+     y="6.0434486e-14" />
+  <rect
+     y="400"
+     x="0"
+     height="200"
+     width="900"
+     id="rect2822"
+     style="fill:#21468b;fill-opacity:1;stroke:none" />
+  <rect
+     style="fill:#ae1c28;fill-opacity:1;stroke:none"
+     id="rect2824"
+     width="900"
+     height="200"
+     x="0"
+     y="0" />
+  <g
+     id="g2907">
+    <text
+       transform="scale(1.018979,0.98137448)"
+       id="text2826"
+       y="364.09949"
+       x="441.97116"
+       style="font-size:180.55104065px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'10 Minutes'"
+       xml:space="preserve"><tspan
+         y="364.09949"
+         x="441.97116"
+         id="tspan2828"
+         sodipodi:role="line">V</tspan></text>
+    <text
+       transform="scale(1.0149994,0.98522226)"
+       id="text2834"
+       y="313.52191"
+       x="475.87671"
+       style="font-size:73.29756165px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'10 Minutes'"
+       xml:space="preserve"><tspan
+         y="313.52191"
+         x="475.87671"
+         id="tspan2836"
+         sodipodi:role="line">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:73.25498962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'10 Minutes'"
+       x="292.79358"
+       y="447.29675"
+       id="text2830"
+       transform="matrix(0.94926666,-0.35765942,0.34757034,0.92248915,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan2832"
+         x="292.79358"
+         y="447.29675">O</tspan></text>
+  </g>
+</svg>

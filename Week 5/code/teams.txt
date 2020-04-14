@@ -1,0 +1,328 @@
+SRBSerbia
+KORKorea Republic
+AUSAustralia
+JAMJamaica
+SVKSlovakia
+IRLRepublic of Ireland
+SCGSerbia and Montenegro
+FRAFrance
+URSSoviet Union
+PARParaguay
+YUGYugoslavia
+CANCanada
+CHIChile
+ZAIZaire
+SWESweden
+CZECzech Republic
+ALGAlgeria
+UKRUkraine
+JPNJapan
+PRKKorea DPR
+BOLBolivia
+IRNIran
+CIVIvory Coast
+POLPoland
+BRABrazil
+USAUSA
+GDRGerman DR
+AUTAustria
+HAIHaiti
+CRCCosta Rica
+GREGreece
+SENSenegal
+ISRIsrael
+RUSRussia
+NIRNorthern Ireland
+KSASaudi Arabia
+ANGAngola
+WALWales
+COLColombia
+NEDNetherlands
+EGYEgypt
+CHNChina PR
+HUNHungary
+SCOScotland
+SLVEl Salvador
+IRQIraq
+CMRCameroon
+UAEUnited Arab Emirates
+TOGTogo
+NGANigeria
+NZLNew Zealand
+BIHBosnia and Herzegovina
+TURTurkey
+KUWKuwait
+INHDutch East Indies
+GERGermany
+PORPortugal
+PERPeru
+HONHonduras
+BELBelgium
+CUBCuba
+ARGArgentina
+ENGEngland
+NORNorway
+MARMorocco
+BULBulgaria
+TUNTunisia
+ECUEcuador
+TCHCzechoslovakia
+SUISwitzerland
+CROCroatia
+FRGGermany FR
+URUUruguay
+GHAGhana
+TRITrinidad and Tobago
+RSASouth Africa
+ITAItaly
+ESPSpain
+ROURomania
+DENDenmark
+MEXMexico
+SVNSlovenia
+SRBSerbia
+KORKorea Republic
+AUSAustralia
+JAMJamaica
+SVKSlovakia
+IRLRepublic of Ireland
+SCGSerbia and Montenegro
+FRAFrance
+URSSoviet Union
+PARParaguay
+YUGYugoslavia
+CANCanada
+CHIChile
+ZAIZaire
+SWESweden
+CZECzech Republic
+ALGAlgeria
+UKRUkraine
+JPNJapan
+PRKKorea DPR
+BOLBolivia
+IRNIran
+CIVIvory Coast
+POLPoland
+BRABrazil
+USAUSA
+GDRGerman DR
+AUTAustria
+HAIHaiti
+CRCCosta Rica
+GREGreece
+SENSenegal
+ISRIsrael
+RUSRussia
+NIRNorthern Ireland
+KSASaudi Arabia
+ANGAngola
+WALWales
+COLColombia
+NEDNetherlands
+EGYEgypt
+CHNChina PR
+HUNHungary
+SCOScotland
+SLVEl Salvador
+IRQIraq
+CMRCameroon
+UAEUnited Arab Emirates
+TOGTogo
+NGANigeria
+NZLNew Zealand
+BIHBosnia and Herzegovina
+TURTurkey
+KUWKuwait
+INHDutch East Indies
+GERGermany
+PERPeru
+PORPortugal
+HONHonduras
+BELBelgium
+CUBCuba
+ARGArgentina
+ENGEngland
+NORNorway
+MARMorocco
+BULBulgaria
+TUNTunisia
+ECUEcuador
+TCHCzechoslovakia
+SUISwitzerland
+CROCroatia
+FRGGermany FR
+URUUruguay
+GHAGhana
+TRITrinidad and Tobago
+RSASouth Africa
+ITAItaly
+ESPSpain
+ROURomania
+DENDenmark
+MEXMexico
+SVNSlovenia
+SRBSerbia
+KORKorea Republic
+AUSAustralia
+JAMJamaica
+SVKSlovakia
+IRLRepublic of Ireland
+SCGSerbia and Montenegro
+FRAFrance
+URSSoviet Union
+PARParaguay
+YUGYugoslavia
+CANCanada
+CHIChile
+ZAIZaire
+SWESweden
+CZECzech Republic
+ALGAlgeria
+UKRUkraine
+JPNJapan
+PRKKorea DPR
+BOLBolivia
+IRNIran
+CIVIvory Coast
+POLPoland
+BRABrazil
+USAUSA
+GDRGerman DR
+AUTAustria
+HAIHaiti
+CRCCosta Rica
+GREGreece
+SENSenegal
+ISRIsrael
+RUSRussia
+NIRNorthern Ireland
+KSASaudi Arabia
+ANGAngola
+WALWales
+COLColombia
+NEDNetherlands
+EGYEgypt
+CHNChina PR
+HUNHungary
+SCOScotland
+SLVEl Salvador
+IRQIraq
+CMRCameroon
+UAEUnited Arab Emirates
+TOGTogo
+NGANigeria
+NZLNew Zealand
+BIHBosnia and Herzegovina
+TURTurkey
+KUWKuwait
+INHDutch East Indies
+GERGermany
+PERPeru
+PORPortugal
+HONHonduras
+BELBelgium
+CUBCuba
+ARGArgentina
+ENGEngland
+NORNorway
+MARMorocco
+BULBulgaria
+TUNTunisia
+ECUEcuador
+TCHCzechoslovakia
+SUISwitzerland
+CROCroatia
+FRGGermany FR
+URUUruguay
+GHAGhana
+TRITrinidad and Tobago
+RSASouth Africa
+ITAItaly
+ESPSpain
+ROURomania
+DENDenmark
+MEXMexico
+SVNSlovenia
+SRBSerbia
+KORKorea Republic
+AUSAustralia
+JAMJamaica
+SVKSlovakia
+IRLRepublic of Ireland
+SCGSerbia and Montenegro
+FRAFrance
+URSSoviet Union
+PARParaguay
+YUGYugoslavia
+CANCanada
+CHIChile
+ZAIZaire
+SWESweden
+CZECzech Republic
+ALGAlgeria
+UKRUkraine
+JPNJapan
+PRKKorea DPR
+BOLBolivia
+IRNIran
+CIVIvory Coast
+POLPoland
+BRABrazil
+USAUSA
+GDRGerman DR
+AUTAustria
+HAIHaiti
+CRCCosta Rica
+GREGreece
+SENSenegal
+ISRIsrael
+RUSRussia
+NIRNorthern Ireland
+KSASaudi Arabia
+ANGAngola
+WALWales
+COLColombia
+NEDNetherlands
+EGYEgypt
+CHNChina PR
+HUNHungary
+SCOScotland
+SLVEl Salvador
+IRQIraq
+CMRCameroon
+UAEUnited Arab Emirates
+TOGTogo
+NGANigeria
+NZLNew Zealand
+BIHBosnia and Herzegovina
+TURTurkey
+KUWKuwait
+INHDutch East Indies
+GERGermany
+PERPeru
+PORPortugal
+HONHonduras
+BELBelgium
+CUBCuba
+ARGArgentina
+ENGEngland
+NORNorway
+MARMorocco
+BULBulgaria
+TUNTunisia
+ECUEcuador
+TCHCzechoslovakia
+SUISwitzerland
+CROCroatia
+FRGGermany FR
+URUUruguay
+GHAGhana
+TRITrinidad and Tobago
+RSASouth Africa
+ITAItaly
+ESPSpain
+ROURomania
+DENDenmark
+MEXMexico
+SVNSlovenia

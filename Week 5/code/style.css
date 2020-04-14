@@ -1,0 +1,289 @@
+body {
+	background: darkwhite;
+}
+
+p {
+	color: grey;
+	font-size: 12pt
+}
+
+svg .groupText {
+	fill : white;
+	font-size: 10pt	
+}
+
+/*******************************************Info box*************************/
+#infoTest {
+    
+    z-index: 15;
+    position:absolute;
+
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display:inline-block;
+
+    padding: 6px 10px;
+     pointer-events: none;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+
+}
+
+#x-selector,
+#y-selector  {
+    z-index: 15;
+    position:absolute;
+    width: auto;
+
+    background: rgba(255,255,255, 0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+#y-selector {
+    left: 4%;
+    top: 5%;
+}
+
+#x-selector {
+    right: 2%;
+    bottom:7%;
+    dropdownDirection:up;
+}
+
+#infoTest p,
+#infoTest h4 {
+    margin: 0px 0px 5px;
+    color: #444;
+}
+
+#infoTest p.years{
+  bottom: 10%;
+  text-align: center;
+}
+
+
+/******************************************* Map *************************/
+.container {
+
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  vertical-align: middle; 
+  overflow: initial;
+
+  
+}
+
+#countryScale,
+#countryMap,
+#countryScale svg {
+  width: 1125px;
+  height: 500px;
+}
+
+#countryScale,
+#countryMap { 
+	border-radius: 0px;
+ 	
+  margin: 0 auto;
+  opacity:  0.75;
+
+  display: inline-block;
+}
+
+#countryMap {  
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+  z-index: 0;
+}
+
+#countryScale {
+  position: relative;
+  background: rgba(255, 255, 255, 0);  
+  z-index: 12;
+}
+
+#countryScale svg {
+  position: relative;
+  z-index: 0;
+}
+
+#countryMap {
+  visibility: hidden;
+}
+
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s linear 1s, opacity 300ms;
+}
+
+svg .winner {
+	opacity: 1;
+}
+
+svg .cup {
+	opacity: 1;
+}
+
+svg .group {
+ 	fill: black;
+ 	stroke: grey;
+ 	opacity: 0.2;
+ }
+
+svg .y-axis { font: 8px sans-serif; }
+
+ #states path {
+    fill : #000;
+    stroke : #fff;
+}
+
+#explode-states path {
+    fill : rgba(0,0,0,0);
+    stroke : rgba(0,0,0,0);
+}
+
+#explode-states:hover {
+    cursor:pointer;
+}
+
+#explode-states path.highlighted-state {
+    fill: red;
+}
+/***********************************Botton***********************************************/
+#button {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover {background-color: grey}
+
+#button:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.leaflet-control-attribution {
+  display: none
+}
+
+#slidecontainer p {
+  margin : 2px;
+  padding: 0 10px;
+}
+
+#slidecontainer {
+    position: relative;
+    width: 100%;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .1s;
+    transition: opacity .1s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: grey;
+    cursor: pointer;
+}
+
+/******************************Tabs******************************/
+.taps {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 32px;
+}
+.taps li.selected,
+.taps li.back {
+  width: 300px;
+  margin: 0 10px;
+  border: 1px solid #AAA;
+  display: inline-block;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+  position: relative;
+  z-index: 0;
+
+  background: #CCCCCC;
+  /*box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;*/
+  text-shadow: 0 1px #FFF;
+  padding: 0 20px;
+
+}
+
+.tabrow:before {
+  z-index: 1;
+  border-bottom-right-radius: 6px;
+  border-width: 0 1px 1px 0;
+}
+
+.taps li.selected {
+  background: #FFF;
+  color: #000;
+  z-index: 2;
+  border-bottom-color: #FFF;
+}
+
+.taps {
+  position: relative;
+}
+.taps:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  border-bottom-left-radius: 6px;
+  border-width: 0 0 1px 1px;
+
+  border-bottom: 1px solid #AAA;
+  z-index: 1;
+
+
+}
